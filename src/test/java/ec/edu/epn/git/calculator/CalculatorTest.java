@@ -55,6 +55,6 @@ public class CalculatorTest {
     public void tearDown()
     {
         System.out.println("tearDown()");
-        c.setAnswer(c.getAnswer());
+        c.setAnswer(0);
     }
 }
